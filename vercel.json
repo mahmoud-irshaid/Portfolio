@@ -1,0 +1,22 @@
+{
+	"redirects": [
+		{
+			"source": "/portfolio",
+			"destination": "/project"
+		},
+		{
+			"source": "/portfolio/:path",
+			"destination": "/project"
+		},
+		{
+			"source": "/",
+			"has": [
+				{
+					"type": "host",
+					"value": "cv.mahmoudirshaid.com"
+				}
+			],
+			"destination": "/Mahmoud_Irshaid_Resume.pdf"
+		}
+	]
+}
