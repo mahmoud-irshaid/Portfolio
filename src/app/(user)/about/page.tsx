@@ -8,7 +8,7 @@ import { Job } from '@root/src/types';
 
 export const metadata = {
 	title:
-		'About Mahmoud Irshaid, a Senior Software Engineer and Consultant in the UK',
+		'About Mahmoud Irshaid, Software Engineer in Jordan',
 	description:
 		'As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place.',
 };

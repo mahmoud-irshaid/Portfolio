@@ -43,7 +43,7 @@ export const HeroSection = () => {
 						</p>
 						<div className="mt-10 flex items-center gap-x-6">
 							<Link
-								href="/contact"
+								href="mailto:mahmoudirshaid10@gmail.com"
 								className="rounded-md bg-blue-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
 							>
 								Get in touch

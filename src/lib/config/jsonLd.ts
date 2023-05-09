@@ -16,11 +16,11 @@ export const personJsonLd = {
 	image:
 		'https://res.cloudinary.com/mahmoudirshaid/image/upload/v1587315576/mahmoud_irshaid.jpg',
 	name: 'Mahmoud Irshaid',
-	alternateName: 'JakeHerp',
+	alternateName: 'MahmoudIrshaid',
 	url: 'https://mahmoudirshaid.com/',
 	jobTitle: [
-		'Senior Software Engineer',
-		'Senior Software Consultant',
+		'Software Engineer',
+		'Software Consultant',
 		'Frontend Engineer',
 		'Front-End Developer',
 		'Web Developer',
@@ -28,12 +28,12 @@ export const personJsonLd = {
 	hasOccupation: {
 		'@type': 'Occupation',
 		name: 'Senior Software Engineer',
-		occupationLocation: { '@type': 'City', name: 'London' },
+		occupationLocation: { '@type': 'City', name: 'Amman' },
 		estimatedSalary: [
 			{
 				'@type': 'MonetaryAmountDistribution',
 				name: 'base',
-				currency: 'GBP',
+				currency: 'JD',
 				duration: 'P1H',
 				percentile10: '74',
 				percentile25: '80',
@@ -67,11 +67,8 @@ export const personJsonLd = {
 		],
 	},
 	sameAs: [
-		'http://linkedin.com/in/mahmoudirshaid',
-		'http://twitter.com/jakeherp',
-		'https://github.com/jakeherp',
-		'https://www.facebook.com/jakeherp',
-		'https://instagram.com/jakeherp',
+		'http://linkedin.com/in/mahmoud-irshaid-b5b096239/',
+		'https://github.com/mahmoud-irshaid',
 	],
 	brand: [
 		{
@@ -79,7 +76,7 @@ export const personJsonLd = {
 			name: 'Software Engineer',
 			alternateName: 'Front-End Engineer',
 		},
-		{ '@type': 'Brand', name: 'JakeHerp', alternateName: 'Mahmoud Irshaid' },
+		{ '@type': 'Brand', name: 'MahmoudIrshaid', alternateName: 'Mahmoud Irshaid' },
 	],
 	memberOf: [
 		{
