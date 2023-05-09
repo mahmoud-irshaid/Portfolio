@@ -3,24 +3,16 @@ import CodeBlock from './Code';
 import { sanityClient } from '@lib/sanity';
 
 import { PortableText, PortableTextReactComponents } from '@portabletext/react';
-import imageUrlBuilder from '@sanity/image-url';
-import { SanityImageSource } from '@sanity/image-url/lib/types/types';
 import type { BlockContent } from '@types';
 import Image from 'next/image';
 import Link from 'next/link';
-
-const builder = imageUrlBuilder(sanityClient);
-
-export const urlFor = (source: SanityImageSource) => {
-	return builder.image(source);
-};
 
 const components: Partial<PortableTextReactComponents> = {
 	types: {
 		image: ({ value }) => (
 			<div className="relative m-10 -mx-4 aspect-video w-[100vw] md:mx-auto md:w-full lg:max-w-4xl">
 				<Image
-					src={urlFor(value).url()}
+					src={''}
 					alt={value.alt}
 					className="object-cover"
 					fill
