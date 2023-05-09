@@ -1,7 +1,5 @@
 import CodeBlock from './Code';
 
-import { sanityClient } from '@lib/sanity';
-
 import { PortableText, PortableTextReactComponents } from '@portabletext/react';
 import type { BlockContent } from '@types';
 import Image from 'next/image';
