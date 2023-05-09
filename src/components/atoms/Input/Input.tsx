@@ -15,7 +15,7 @@ export const Input = ({
 	type = 'text',
 }: InputProps) => {
 	const fieldProps = { label, id, name: id, placeholder, type };
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 	const [_, meta] = useField(fieldProps);
 
 	return (

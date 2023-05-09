@@ -9,7 +9,7 @@ export interface SelectProps {
 
 export const Select = ({ label, id, options }: SelectProps) => {
 	const fieldProps = { label, id, name: id, options };
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 	const [_, meta] = useField(fieldProps);
 
 	return (

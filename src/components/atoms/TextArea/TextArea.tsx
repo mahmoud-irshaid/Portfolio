@@ -9,7 +9,7 @@ export interface TextAreaProps {
 
 export const TextArea = ({ label, placeholder, id }: TextAreaProps) => {
 	const fieldProps = { label, id, name: id, placeholder };
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 	const [_, meta] = useField(fieldProps);
 
 	return (
