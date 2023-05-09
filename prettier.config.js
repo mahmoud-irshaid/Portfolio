@@ -20,7 +20,6 @@ module.exports = {
 		'^@components/(.*)$',
 		'^@hooks/(.*)$',
 		'^@lib/(.*)$',
-		'^@mockdata/(.*)$',
 		'^@queries/(.*)$',
 		'^@styles/(.*)$',
 		'^@types/(.*)$',

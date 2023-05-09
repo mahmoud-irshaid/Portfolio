@@ -19,11 +19,11 @@ const Job: FC<PropsWithChildren<JobProps>> = ({
 }) => {
 	return (
 		<Box className="mt-12 w-full">
-			{company.logo && (
+			{company?.logo && (
 				<div className="-mt-12 mb-4 flex w-full justify-center">
 					<Image
-						src={company.logo}
-						alt={company.name}
+						src={company?.logo}
+						alt={company?.name}
 						width={64}
 						height={64}
 						className="rounded-md"
@@ -34,24 +34,23 @@ const Job: FC<PropsWithChildren<JobProps>> = ({
 				<div className="mb-2 w-full">
 					<h3 className="text-center font-bold">{jobTitle}</h3>
 					<h4 className="text-center">
-						{company.url ? (
+						{company?.url ? (
 							<a
-								href={company.url}
+								href={company?.url}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="underlined relative"
 							>
-								{company.name}
+								{company?.name}
 							</a>
 						) : (
-							<>{company.name}</>
+							<>{company?.name}</>
 						)}
 					</h4>
 
 					<p className="mb-4 text-center text-sm text-slate-500">
-						{`${format(new Date(fromDate), 'MMM yyyy')} — ${
-							toDate ? format(new Date(toDate), 'MMM yyyy') : 'present'
-						}`}
+						{`${format(new Date(fromDate), 'MMM yyyy')} — ${toDate ? format(new Date(toDate), 'MMM yyyy') : 'present'
+							}`}
 					</p>
 
 					<p className="hidden text-sm md:block md:text-base">
