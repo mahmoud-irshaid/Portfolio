@@ -34,9 +34,6 @@
       "@lib/*": [
         "./src/lib/*"
       ],
-      "@mockdata": [
-        "./src/mockdata"
-      ],
       "@root/*": [
         "./*"
       ],
