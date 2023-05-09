@@ -1,7 +1,7 @@
 type company = {
-	logo: string,
-	url: string,
-	name: string
+	logo?: string,
+	url?: string,
+	name?: string
 }
 
 export interface Job {

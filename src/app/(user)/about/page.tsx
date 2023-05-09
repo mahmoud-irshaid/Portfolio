@@ -4,6 +4,7 @@ import { Container } from '@components/atoms/Container';
 import { IconDownload } from '@components/atoms/Icons';
 import { Education } from '@components/organisms/Education';
 import { WorkExperience } from '@components/organisms/WorkExperience';
+import { Job } from '@root/src/types';
 
 export const metadata = {
 	title:
@@ -13,9 +14,9 @@ export const metadata = {
 };
 
 const AboutPage = async () => {
-	const jobs = [
+	const jobs: Job[] = [
 		{
-			company: 'Agents on cloud',
+			company: { name: 'Agents on cloud' },
 			jobTitle: 'Mobile Developer',
 			fromDate: 'Jun/2022',
 			toDate: 'May/2023',

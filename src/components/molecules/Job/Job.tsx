@@ -23,7 +23,7 @@ const Job: FC<PropsWithChildren<JobProps>> = ({
 				<div className="-mt-12 mb-4 flex w-full justify-center">
 					<Image
 						src={company?.logo}
-						alt={company?.name}
+						alt={company?.name || 'company'}
 						width={64}
 						height={64}
 						className="rounded-md"
