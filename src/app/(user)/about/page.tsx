@@ -132,7 +132,7 @@ const AboutPage = async () => {
 					performance and accessibility.
 				</p>
 				<p className="my-4">
-					I am 23 years old and have been a web developer for as long as I can
+					I am 25 years old and have been a web developer for as long as I can
 					think. The technologies I work with are JavaScript, HTML and CSS with
 					a focus on the frameworks React.js, Next.js, React Native, Expo, Node
 					Express. I use code not only to do my day-to-day job, but also to

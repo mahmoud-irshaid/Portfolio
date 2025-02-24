@@ -11,13 +11,12 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 	const Spacer = () => <div className="md:w-1/8 w-12 shrink-0 grow-0" />;
 
 	return (
-		<div className="w-[calc(100% + 2rem)] relative -mx-4 flex snap-x snap-center gap-6 overflow-hidden overflow-x-auto pb-14 lg:mx-0 lg:w-full justify-center">
-			<Spacer />
+		<div className="w-[calc(100% + 2rem)] relative -mx-4 flex snap-x snap-center gap-6 overflow-hidden overflow-x-auto pb-14 lg:mx-0 lg:w-full justify-center flex-wrap">
 			{jobs.map(
 				({ company, jobTitle, fromDate, toDate, skills, description }) => (
 					<div
 						className={classNames(
-							'flex w-4/5 shrink-0 transform snap-center transition-all md:w-3/4 lg:w-1/3'
+							'flex w-4/5 shrink-0 transform snap-center transition-all md:w-3/4 lg:w-5/12'
 						)}
 						key={`${company} ${jobTitle}`}
 					>
@@ -39,7 +38,6 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 					</div>
 				)
 			)}
-			<Spacer />
 		</div>
 	);
 };
